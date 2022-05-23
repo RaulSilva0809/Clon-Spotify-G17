@@ -1,0 +1,197 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+.navigation-container{
+    background-color: black;
+}
+img{
+    width: 132px;
+    height: 42px;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    list-style: none;
+}
+li{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+a{
+    color: white; 
+    text-decoration: none;
+}
+p{
+    color: white;
+}
+.main-article1{
+    background-color: rgb(29,117,222);
+}
+.main-container{
+    color: white;
+    background-color: rgb(29,117,222);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding-top: 72px;
+    padding-bottom: 40px;
+    margin-left: 366.500px;
+    margin-right: 366.500px;
+}
+.titulo-blue{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.titulo2-blue{
+    font-size: 150px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 40px;
+}
+.terminos{
+    color: white
+}
+.terminos-text{
+    margin-top: 40px;
+font-size: 11px;
+}
+.button1{
+    position: relative;
+    background-color: var(--background-base,#000000);
+    color: var(--text-base,#ffffff);
+    border-radius: 500px;
+    font-size: inherit;
+    padding-block: 14px;
+    padding-inline: 32px;
+    margin-top: 40px;
+}
+.button2{
+    position: relative;
+    background-color: var(--background-base,transparent);
+    color: var(--text-base,#ffffff);
+    border-radius: 500px;
+    font-size: inherit;
+    padding-block: 14px;
+    padding-inline: 32px;
+    margin-top: 40px;
+}
+/*segunda seccion*/
+.main-article3{
+    background-color: #EFEFEF;
+    text-align:center;
+}
+.main-container3{
+background-color: #EFEFEF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding-top: 72px;
+    padding-bottom: 40px;
+    margin-left: 366.500px;
+    margin-right: 366.500px;
+}
+.titulo-black1{
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+}
+.tercer-img{
+    width: 20%;
+    height: 20px;
+    margin-bottom: 40px;
+}
+/*tercera seccion*/
+.main-article2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.main-container2{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding-top: 72px;
+    padding-bottom: 40px;
+    margin-left: 366.500px;
+    margin-right: 366.500px;
+}
+.titulo-black{
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.second-img{
+    width: 110%;
+    height: 190px;
+}
+.card-body{
+    color: black;
+}
+.plan-button1{
+    border-radius: 4px;
+    border: 0px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 900;
+    margin: 0px 40px 10px 0px;
+    margin-block: 0px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(51 133 233);
+
+}
+.plan-button2{
+    align-content: flex-end;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 900;
+    margin: 0px 70px 10px 0px;
+    margin-block: 0px 10px;
+    color: rgb(46, 119, 208);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(46, 119, 208);
+}
+.card-title{
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin: 0px 120px 10px 0px;
+}
+.card-text{
+    color: black;
+    text-align:left;
+    margin-bottom: 0px;
+}
+.plan-button3{
+    position: relative;
+    background-color: var(--background-base,#000000);
+    color: var(--text-base,#ffffff);
+    border-radius: 500px;
+    font-size: inherit;
+    padding-block: 14px;
+    padding-inline: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.terminos1{
+    color: rgb(0, 0, 0)
+}
+.terminos-text1{
+    text-align:left;
+    color: black;
+    margin-top: 40px;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:1300px){
+    .second-img{
+    width: 100%;
+    height: 300px;
+    }
+}
